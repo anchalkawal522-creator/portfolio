@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #111;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 80px 50px;
+  min-height: 100vh;
+}
+
+/* Home */
+#home {
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+#home h1 span {
+  color: yellow;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Projects */
+.project {
+  background: #222;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Contact */
+form input,
+form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  width: 100%;
+}
+
+  /* header */
+  section.header {
+    position: relative;
+    z-index: 22;
+    background-color: #0000007a;
+    color:white;
+    padding :40px;
+}
+ 
+.both-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.menu ul {
+    display: flex;
+    gap: 62px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu ul :hover{
+    color:rgba(0, 0, 0, 0.326);
+    transition: all 0.8s ease;
+}
+
+
+.name h1 {
+    font-size: 28px;}
+    .menu ul li a{
+    color:white;
+}
+/* main */
+.porfolio {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      margin: 50px;
+    padding: 30px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 46%;
+    margin: 60px 0px;
+    padding: 30px;
+}
+
+.left h6 {
+    color: #c7c7c7;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.left h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.left span {
+    color: #8b5cf6;
+}
+
+.left p {
+    color: #bdbdbd;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.left button {
+    padding: 10px 22px;
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 152%;
+    border-radius: 50%;
+}
+.icon svg {
+    height: 59px;
+    fill: white;
+}
+
+
+

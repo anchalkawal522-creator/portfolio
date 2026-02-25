@@ -1,0 +1,84 @@
+ .left {
+    width: 50%;
+    padding: 25px 50px;
+    background-color: whitesmoke;
+    margin: 30px;
+}
+body {
+    background-color: black;
+}
+.image-p {
+    width: 50%;
+    padding: 25px;
+}
+.image-p img {
+    width: 100%;
+    padding: 30px;
+}
+.both-p {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background-color: black;
+}
+.heading h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+p {
+    font-size: 14px;
+    color: black;
+}
+.button-l button {
+    height: 40px;
+    width: 100px;
+    border-radius: 11px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: black;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+ section.header {
+    position: relative;
+    z-index: 22;
+    background-color: #000000eb;
+    color:white;
+}
+ 
+    .both-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+  
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.menu ul {
+    display: flex;
+    gap: 62px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu ul li:hover{
+    color:rgba(0, 0, 0, 0.326);
+    transition: all 0.8s ease;
+}
+.menu ul li a{
+    color:white;
+}
+
+
+.name h1 {
+    font-size: 28px;}

@@ -1,0 +1,112 @@
+/* header */
+  section.header {
+    position: relative;
+    z-index: 22;
+    background-color: #000000eb;
+    color:white;
+}
+ 
+    .both-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+  
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.menu ul {
+    display: flex;
+    gap: 62px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu ul li:hover{
+    color:rgba(0, 0, 0, 0.326);
+    transition: all 0.8s ease;
+}
+.menu ul li a{
+    color:white;
+}
+
+
+.name h1 {
+    font-size: 28px;}
+
+    /* main */
+    .about-both {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about {
+    background-color: black;
+    padding: 90px 0px;
+}
+
+.about-both{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:40px;
+}
+
+.image-about{
+  width:40%;
+  text-align:center;
+}
+
+.image-about img{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  border:4px solid #8b5cf6;
+  object-fit:cover;
+}
+
+
+
+.about-con{
+  width:60%;
+}
+
+.about-con h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about-con span{
+  color:#8b5cf6;
+}
+
+.about-con h1:nth-child(2){
+  font-size:24px;
+  color:#c7c7c7;
+  margin-bottom:20px;
+}
+
+.about-con p{
+  color:#bdbdbd;
+  line-height:1.6;
+  font-size:16px;
+  margin-bottom:25px;
+}
+
+
+.about-con button{
+  padding:10px 25px;
+  background:#8b5cf6;
+  border:none;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.about-con button:hover{
+  background:#7c3aed;
+}
