@@ -30,6 +30,9 @@
 .menu ul li a{
     color:white;
 }
+body{
+  font-family: Arial, sans-serif;
+}
 
 
 .name h1 {
@@ -44,7 +47,8 @@
 }
 .about {
     background-color: black;
-    padding: 90px 0px;
+    padding: 123px 0px;
+    text-transform: capitalize;
 }
 
 .about-both{
@@ -97,16 +101,18 @@
 }
 
 
-.about-con button{
-  padding:10px 25px;
-  background:#8b5cf6;
-  border:none;
-  color:white;
-  border-radius:5px;
-  cursor:pointer;
-  transition:0.3s;
+.about-con button {
+    padding: 10px 25px;
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
 }
 
 .about-con button:hover{
-  background:#7c3aed;
+  background:#7c3aede7;
 }

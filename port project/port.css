@@ -1,57 +1,12 @@
- .left {
-    width: 50%;
-    padding: 25px 50px;
-    background-color: whitesmoke;
-    margin: 30px;
-}
-body {
-    background-color: black;
-}
-.image-p {
-    width: 50%;
-    padding: 25px;
-}
-.image-p img {
-    width: 100%;
-    padding: 30px;
-}
-.both-p {
-    display: flex;
-    padding: 30px;
-    align-items: center;
-    background-color: black;
-}
-.heading h1 {
-    font-size: 40px;
-    text-align: center;
-    text-transform: capitalize;
-}
-p {
-    font-size: 14px;
-    color: black;
-}
-.button-l button {
-    height: 40px;
-    width: 100px;
-    border-radius: 11px;
-    border: none;
-    padding: 5px;
-    font-size: 16px;
-}
-h1 {
-    font-size: 40px;
-    text-transform: capitalize;
-    color: black;
-}
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
- section.header {
+/* header */
+  section.header {
     position: relative;
     z-index: 22;
     background-color: #000000eb;
     color:white;
+}
+body{
+  font-family: Arial, sans-serif;
 }
  
     .both-header {
@@ -73,7 +28,7 @@ h1 {
 }
 .menu ul li:hover{
     color:rgba(0, 0, 0, 0.326);
-    transition: all 0.8s ease;
+    transition: all 0.9s ease;
 }
 .menu ul li a{
     color:white;
@@ -82,3 +37,96 @@ h1 {
 
 .name h1 {
     font-size: 28px;}
+
+/* Main */
+
+
+.project {
+  width: 100%;
+  padding: 80px 0;
+  background: #020617;
+  color: white;
+}
+
+
+.project .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading-project {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading-project h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #38bdf8;
+  letter-spacing: 2px;
+}
+
+
+.projects-3 {
+  margin-bottom: 50px;
+}
+
+
+.pro-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+
+.image-pro {
+  width: 30%;
+  background: #0f172a;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.4s;
+  position: relative;
+}
+
+.image-pro:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #f2f3eb;
+}
+
+
+.image-pro img {
+  width: 100%;
+  height: 260px;
+}
+
+
+.con-pro {
+    padding: 20px;
+    position: absolute;
+    bottom: -288px;
+    overflow: hidden;
+    background-color: #121218a6;
+}
+.image-pro:hover .con-pro {
+    bottom:5px;
+    transition: all 0.9s ease;
+} 
+
+.con-pro h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+  text-transform: capitalize;
+}
+
+.con-pro p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+
+
+ 
